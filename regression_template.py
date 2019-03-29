@@ -29,7 +29,6 @@ from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 regressor.fit(X_train,y_train)
 
-# predecting the test result
 y_pred = regressor.predict(X_test)
 
 # polynomial linear reg
